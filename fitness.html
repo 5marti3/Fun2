@@ -1,41 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="fitness.css">
-    <script src="fitness.js"></script>
+  <head>
+    <link rel="stylesheet" href="styles/fitness.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Odibee+Sans|Oxanium:600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+    <script src="scripts/fitness.js" defer></script>
 
-    <meta charset="UTF-8">
-    <title> Markow hFitness </title>
-</head>
-<body>
+    <meta charset="UTF-8" />
+    <title>Fitness</title>
+  </head>
+  <body onclick="bodyWidth()" >
+    <h1 id="h1" onclick="changeH1()">Martin's website</h1>
 
-<h1 id="mainHeader">Markow Fitness</h1>
+    <img alt="POLEN" onclick="changeImg()" src="images/Download2.png" /> 
 
-<div class="topnav">
+    <h2>Introduction</h2>
+    <p>
+      Hello, my name is <strong>Martin Kowarczyk</strong>.<br />
+      I'm 19 years old and this is my fitness website!<br />
+      Not a beauty <em>really</em>, but I'm working on it!
+    </p>
 
+    <p>Foods<br /></p>
+  
+    <ul>
+      <li>
+        <a
+          href="https://www.chefkoch.de/rezepte/745721177147257/Lasagne.html"
+          target="_blank"
+          >Lasagna</a
+        >
+      </li>
+      <li>
+        <a href="https://www.call-a-pizza.de/hamburg_eppendorf/" target="_blank"
+          >Pizza</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://www.lieferando.de/burger-bestellen-hamburg"
+          target="_blank"
+          >Burger</a
+        >
+      </li>
+    </ul>
+  
 
-    <div class="topnavCenter">
-        <a href="#Kalorienrechner">Kalorienrechner</a>
-    </div>
+    <a
+      href="file:///C:/Users/mrkw/Desktop/Web%20Projects/HTML/web.html"
+      target="_blank"
+      >My other website<br
+    /></a>
+    <button onclick="magicButton()" >Magic</button><br>
+    <button onclick="createParagraph()"> Some more Magic</button>
 
-
-        <a href="#startseite">Startseite</a>
-
-
-    <div class="topnavRight">
-        <a href="#about">About</a>
-    </div>
-
-
-
-
-
-
-
-
-</div>
-
-
-
-</body>
+    <p>To be continued...</p>
+  </body>
 </html>
